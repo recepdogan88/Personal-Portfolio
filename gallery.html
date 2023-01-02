@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Image Gallery - Bootstrap 5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="./home.css">
+
+</head>
+<body>
+  
+   <header class="page__header header">
+      <div class="header__container container">
+        <div class="header__body">
+          <div class="header__leftside">
+            <a href="#home" title="" class="header__logo">RECEP DOGAN</a>
+          </div>
+          <div class="header__rightside">
+            <div class="header__menu header-menu">
+              <ul class="header-menu__list">
+                <li class="header-menu__item">
+                  <a href="#home" title="" class="header-menu__link">Home</a>
+                </li>
+                <li class="header-menu__item">
+                  <a href="#about" title="" class="header-menu__link">About</a>
+                </li>
+                <li class="header-menu__item">
+                  <a href="#skills" title="" class="header-menu__link">Skills</a>
+                </li>
+                <li class="header-menu__item">
+                  <a href="#projects" title="" class="header-menu__link">Projects</a>
+                </li>
+                <li class="header-menu__item">
+                  <a href="#contact" title="" class="header-menu__link">Contact</a>
+                </li>
+                <li class="header-menu__item">
+                  <a href="./gallery.html" title="" class="header-menu__link">MyCertificates</a>
+                </li>
+              </ul>
+            </div>
+            <div class="header__changer">
+              <div class="header__moon">
+                <i class='bx bx-moon'></i>
+              </div>
+            </div>
+            <div class="header__mob">
+              <div class="header__mob-menu">
+                <i class='bx bx-menu' ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </header>
+  <section class="gallery min-vh-100 mt-5">
+     <div class="container-lg mt-5">
+        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+           <div class="col">
+              <img src="images/bootstrap.png" class="gallery-item" alt="gallery">
+           </div>
+           <div class="col">
+              <img src="images/busu.png" class="gallery-item" alt="gallery">
+           </div>
+           <div class="col">
+              <img src="images/css-coursera.png" class="gallery-item" alt="gallery">
+           </div>
+           <div class="col">
+              <img src="images/css-hicoders.png" class="gallery-item" alt="gallery">
+           </div>
+           <div class="col">
+              <img src="images/js-advanced-hicoders.png" class="gallery-item" alt="gallery">
+           </div>
+           <div class="col">
+              <img src="images/js-coursera.png" class="gallery-item" alt="gallery">
+           </div>
+        </div>
+     </div>
+  </section>
+
+<!-- Modal -->
+<div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <img src="img/bootstrap.png" class="modal-img" alt="modal img">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

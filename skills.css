@@ -1,0 +1,82 @@
+/*** <--- CIRCLE STYLES ---> ***/
+#skills{
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+
+.circle {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    margin: 0.5rem;
+    border-radius: 50%;
+    background: #FFCDB2;
+    overflow: hidden;
+}
+.circle.html {
+  background-image: conic-gradient(#FC6E6E 90%, white 0);
+  cursor: pointer;
+}
+.circle.css {
+  background-image: conic-gradient(#FC6E6E 85%, white 0);
+  cursor: pointer;
+}
+.circle.js {
+  background-image: conic-gradient(#FC6E6E 60%, white 0);
+  cursor: pointer;
+}
+.circle.react {
+  background-image: conic-gradient(#FC6E6E 80%, white 0);
+  cursor: pointer;
+}
+.circle.node {
+  background-image: conic-gradient(#FC6E6E 50%, white 0);
+  cursor: pointer;
+}
+.circle.english {
+  background-image: conic-gradient(#FC6E6E 80%, white 0);
+  cursor: pointer;
+}
+.circle.german {
+  background-image: conic-gradient(#FC6E6E 60%, white 0);
+  cursor: pointer;
+}
+.circle .inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 115px;
+  height: 115px;
+  background: #000;
+  border-radius: 50%;
+  font-size: 1.85em;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.75);
+}
+.skills-header{
+  color: #FC6E6E;
+  font-weight: 800;
+  font-family: 'Rubik Moonrocks', cursive;
+}
+.hr-skills{
+  border-top: 3px solid #FC6E6E ;
+  width: 400px;
+  margin: 15px auto;
+  background-color: #FC6E6E ;;
+}
+.icon-skills{
+  color:#FC6E6E ;
+  position: relative;
+  top: -55px;
+  font-size: 40px;
+  border: 10px solid transparent;
+  background-color: transparent;
+}
+.skills-div{
+  display: flex;
+  flex-direction: column;
+}

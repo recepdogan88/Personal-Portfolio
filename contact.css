@@ -1,0 +1,46 @@
+#contact{
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+.fa-twitter-square,.fa-instagram,.fa-linkedin,.fa-facebook{
+    font-size: 50px;
+    color: #FC6E6E;
+}
+.fa-facebook{
+    margin-right: 26px;
+}
+.fa-facebook,.fa-twitter-square,.fa-instagram,.fa-linkedin :hover{
+    transform: scale(0.85);
+    cursor: pointer;
+}
+ul {
+    list-style-type: none; /* Remove bullets */
+}
+.submit{
+    background-color:#FC6E6E;
+    color: white;
+    width: 110px;
+    height: 40px;
+    margin-top: 15px;
+}
+.baslik-contact{
+    color:#FC6E6E ;
+    font-weight: 800;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+.icon-contact{
+    border-top: 5px solid #FC6E6E ;
+    width: 400px;
+    margin: 25px auto;
+    background-color: #FC6E6E ;;
+}
+.ibeyaz-contact{
+    color:#FC6E6E ;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid transparent;
+    background-color: transparent;
+}
+textarea{
+    height: 80px;
+}
