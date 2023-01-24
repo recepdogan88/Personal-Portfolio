@@ -1,0 +1,22 @@
+html{
+    font-size: 10px;
+}
+.row{
+    margin-top: 12rem;
+    margin-left: 13rem ;
+}
+img{
+    border-radius: 50%;
+    width: 45rem;
+}
+
+
+@media screen and (max-width:600px) {
+    html{
+        font-size:7px;
+    }
+    img{
+        width: 40rem;
+        margin-top: 10rem;
+    }
+}
