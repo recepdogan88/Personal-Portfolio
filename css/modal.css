@@ -1,0 +1,6 @@
+.modal-image{
+    margin-top: 100px;
+}
+.modal-img img:hover{
+    cursor:grab;
+}
