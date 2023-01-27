@@ -11,7 +11,6 @@
       crossorigin="anonymous"
     />
     
-    <link rel="stylesheet" href="./css/navbar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,13 +23,14 @@
       href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/modal.css">
     <title>My Preperation</title>
   </head>
   <body>
-    <!--NAVBAR START-->
-    <!-- header start -->
-  <header class="header">
+    <div class="container">
+ <!-- header start -->
+ <header class="header">
     <div class="container">
        <div class="header-main">
           <div class="logo">
@@ -79,19 +79,38 @@
                </li>
             </ul>
           </nav>
-</header>
-      <section class="container">
-        
-          <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3 modal-image">
-            <div class="col-lg-4 modal-img">
+          <!-- navigation menu end -->
+         
+       </div>
+    </div>
+ </header>
+ <!-- header end -->
+      
+        <div class="container modal-image">
+          <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+            
+            <div class="col-lg-4 .modal-image">
               <img src="./images/cloud/aws-cloud-practitioner.png" class="gallery-item w-100" alt="gallery" />
             </div>
-            <div class="col-lg-4 modal-img">
-                <img src="./images/cloud/aws-cloud-practitioner.png" class="gallery-item w-100" alt="gallery" />
+            <div class="col-lg-4">
+              <img
+                src="./images/cloud/aws-cloud-essentials.png"
+                class="gallery-item w-100 "
+                alt="gallery"
+              />
+            </div>
+            <div class="col-lg-4">
+                <img
+                  src="./images/cloud/aws-cloud-essentials.png"
+                  class="gallery-item w-100 "
+                  alt="gallery"
+                />
               </div>
           </div>
-        
-      </section>
+        </div>
+      
+    </div>
+   
 
       <!-- Modal -->
       <div
@@ -113,7 +132,7 @@
               ></button>
             </div>
             <div class="modal-body">
-              <img src="../images/cloud/aws-cloud-practitioner.png" class="modal-img w-100" alt="modal img" />
+              <img src="img/bootstrap.png" class="modal-img w-100" alt="modal img" />
             </div>
           </div>
         </div>
@@ -137,3 +156,4 @@
     <script src="js/main.js"></script>
   </body>
 </html>
+
