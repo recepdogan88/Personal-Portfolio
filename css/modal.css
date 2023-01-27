@@ -1,6 +1,10 @@
 .modal-image{
     margin-top: 100px;
+    margin-bottom: 30px;
 }
-.modal-img img:hover{
+img{
+    height: 300px;
+}
+img:hover{
     cursor:grab;
 }
