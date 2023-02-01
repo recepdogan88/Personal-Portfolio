@@ -24,8 +24,10 @@ html{
 img{
     border-radius: 50%;
     width: 36rem;
+    height: auto;
     margin-right: 5rem;
     margin-left: 7rem;
+    border-radius: 50%;
 }
 .resume{
     width: 21rem;
@@ -85,6 +87,9 @@ img{
         width: 100%;
         margin-top: 10rem;
         margin-left: 12rem;
+    }
+    a{
+        margin: auto;
     }
     
 }
